@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music System & Instruments</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f4a261;
+        }
+
+        /* Section Styling */
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* Product Grid */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .product img {
+            max-height: 200px;
+            margin-bottom: 10px;
+        }
+
+        .product h3 {
+            color: #333;
+            font-size: 1.2em;
+        }
+
+        /* Contact Section */
+        address {
+            font-style: normal;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #f4a261;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #e67e22;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        /* Responsive Design for Smaller Screens */
+        @media (max-width: 768px) {
+            .product-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Product Categories</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>The Answer Production</h1>
+        <p>We provide quality, fine and sweet music.</p>
+        <img src="img/home1.jpg" alt="Music Instruments">
+        
+    </section>
+
+    <!-- Product Categories Section -->
+    <section id="products" class="section">
+        <h2>Our Product Categories</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="img/home1.jpg" alt="The Answer">
+                <h3>The Answer</h3>
+            </div>
+            <div class="product">
+                <img src="img/Guitar" alt="Piano">
+                <h3>Guitars</h3>
+            </div>
+            <div class="product">
+                <img src="img/Drums" alt="Drums">
+                <h3>Drums</h3>
+            </div>
+            <div class="product">
+                <img src="img/keyboard" alt="Keyboard">
+                <h3>Keyboards</h3>
+            </div>
+            <div class="product">
+                <img src="img/speaker.jpg" alt="Speakers">
+                <h3>Speakers</h3>
+            </div>
+            
+            <div class="product">
+                <img src="img/service.jpg" alt="Services">
+                <h3>Services</h3>
+            </div>
+        </div>
+    </section>
+
+     
+        
+       <!-- <img src="img/as.jpg" alt="Music Instruments"> -->
+         <!-- Services Section -->
+     <section id="services" class="section">
+        <h2>Our Services</h2>
+        <p>We offer a variety of music-related services to help you with your music journey:</p>
+        <ul>
+            <strong>Music Lessons:</strong> Learn to play your favorite instruments.<br>
+            <strong>Sound System Setup:</strong> We provide setup and support for sound systems for events and concerts.<br>
+            <strong>Live Performances:</strong> Book our talented musicians for your events, parties, or concerts.<br>
+            <strong>Recording Studio:</strong> We give access to recording studio/ recording rehearsal studio.<br>
+            <strong>Music System for Hire:</strong> Hire instruments at a reasonable price.<br>
+        </ul>
+        <p><strong>For:</strong></p>
+        <ul>
+            Weddings<br>
+            Parties<br>
+            Gala dinners<br>
+            Conferences<br>
+            Graduations<br>
+            Appreciations<br>
+            Charity events<br>
+            Concerts
+        </ul>
+        <h3>
+        <p>Answering the call of Music</p>
+        </h3>
+    </section>
+
+    
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>For inquiries, feel free to reach us at:</p>
+        <address>
+            Email: <a href="mashmud2027@gmail.com">mashmud2027@gmail.com</a><br>
+            Phone number: <a href="tel:+27729888864">(+27)72 988 8864</a><br>
+            
+            Address:<br>
+            facebook: <a> Mashudu Edwin</a>
+        </address>
+        <!-- WhatsApp Link -->
+        <a href="https://wa.me/+27729888864" target="_blank" class="whatsapp-link">
+            Chat with us on WhatsApp
+        </a><br>
+        <!-- Facebook Link -->
+    <a href="https://www.facebook.com/Mashudu Edwin" target="_blank" class="https://www.facebook.com/share/15M414JRKh/?mibextid=qi2Omg">
+        Follow us on Facebook
+    </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 The Answer Production. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
